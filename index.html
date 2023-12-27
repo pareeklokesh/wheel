@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wheel</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body style="padding-top: 700px;">
+
+    <div class="graph_container">
+        <div class="main">
+            <div style="display:flex;">
+                <div class="main_vendor_logos relative" style="text-align:left;width:160px;">
+                    <div style="position:absolute;top:65%;left:0%;height:auto;z-index:1;transform:translate(0%, -50%);background:#F2F2F2;padding:0 27px 27px 27px;">
+                        <div style="margin-bottom:1em !important;">
+                            <input id="toggle-on" class="toggle toggle-left" name="toggle" type="radio" value="1" checked>
+                            <label for="toggle-on" class="btn">Vendors</label>
+                            <input id="toggle-off" class="toggle toggle-right" name="toggle" type="radio" value="2">
+                            <label for="toggle-off" class="btn">Threats</label>
+                        </div>
+
+                        <div style="display:flex;flex-flow:column wrap;height:326px;width:240px;" class="toHide" id="type-1">
+                            <p id="Aryaka" class="vendorFilterItem">Aryaka</p>
+                            <p id="Bitdefender" class="vendorFilterItem">Bitdefender</p>
+                            <p id="Bluecat" class="vendorFilterItem">Bluecat</p>
+                            <p id="Censornet" class="vendorFilterItem">Censornet</p>
+                            <p id="Checkpoint" class="vendorFilterItem">Checkpoint</p>
+                            <p id="Cloudflare" class="vendorFilterItem">Cloudflare</p>
+                            <p id="Cofense" class="vendorFilterItem">Cofense</p>
+                            <p id="Contrast Security" class="vendorFilterItem">Contrast Security</p>
+                            <p id="Deep Instinct" class="vendorFilterItem">Deep Instinct</p>
+                            <p id="Dope Security" class="vendorFilterItem">Dope Security</p>
+                            <p id="Ericom" class="vendorFilterItem">Ericom</p>
+                            <p id="Forcepoint" class="vendorFilterItem">Forcepoint</p>
+                            <p id="Fortra" class="vendorFilterItem">Fortra</p>
+                            <p id="iboss" class="vendorFilterItem">iboss</p>
+                            <p id="Netwrix" class="vendorFilterItem">Netwrix</p>
+                            <p id="Picus" class="vendorFilterItem">Picus</p>
+                            <p id="Proofpoint" class="vendorFilterItem">Proofpoint</p>
+                            <p id="Radware" class="vendorFilterItem">Radware</p>
+                            <p id="Red Sift" class="vendorFilterItem">Red Sift</p>
+                            <p id="Skurio" class="vendorFilterItem">Skurio</p>
+                            <p id="Swivel Secure" class="vendorFilterItem">Swivel Secure</p>
+                            <p id="Trend Micro" class="vendorFilterItem">Trend Micro</p>
+                            <p id="Tufin" class="vendorFilterItem">Tufin</p>
+                            <p id="Vicarius" class="vendorFilterItem">Vicarius</p>
+                            <p id="ZeroFox" class="vendorFilterItem">ZeroFox</p>
+                        </div>
+
+                        <div style="display:none;flex-flow:column wrap;height:auto;width:240px;" class="toHide" id="type-2">
+                            <p id="" class="threatFilterItem"></p>
+                            <p id="Cloud Misconfiguration" class="threatFilterItem">Cloud Misconfiguration</p>
+                            <p id="Employees Working From Home" class="threatFilterItem">Employees Working From Home</p>
+                            <p id="Insider Threat" class="threatFilterItem">Insider Threat</p>
+                            <p id="IoT exploit" class="threatFilterItem">IoT exploit</p>
+                            <p id="Ransomware" class="threatFilterItem">Ransomware</p>
+                            <p id="Social Engineering / BEC" class="threatFilterItem">Social Engineering / BEC</p>
+                            <p id="Zero Day Attacks" class="threatFilterItem">Zero Day Attacks</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="chart1" class="chart" data-highcharts-chart="0" style="overflow:hidden;margin-top:0px;width:100%;">
+                    <div id="highcharts-l17lrft-0"
+                        style="position: relative; overflow: hidden; width: 1285px; height: 900px; text-align: left; line-height: normal; z-index: 0; user-select: none; touch-action: manipulation; outline: none; left: 0.116669px; top: 0.100006px;"
+                        dir="ltr" class="highcharts-container ">
+                        <svg version="1.1" class="highcharts-root"
+                            style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif;font-size:12px;"
+                            xmlns="http://www.w3.org/2000/svg" width="1285" height="900" viewBox="0 0 1285 900">
+                            <desc>Created with Highcharts 9.2.2</desc>
+                            <defs>
+                                <clipPath id="highcharts-l17lrft-61-">
+                                    <rect x="0" y="0" width="1265" height="875" fill="none"></rect>
+                                </clipPath>
+                            </defs>
+                           
+                        </svg>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <h2 style="position: absolute;top: 0px;font-size: 17px;background: black;color: white;padding: 10px;left: 148px;right: 0;margin: 0 auto;width: fit-content;"
+                class="fadeIn">Cyber Fundamentals</h2>
+            <h2 style="position: absolute;top: 120px;font-size: 17px;background: black;color: white;padding: 10px;left: 148px;right: 0;margin: 0 auto;width: fit-content;"
+                class="fadeIn">Best Practice</h2>
+            <h2 style="position: absolute;top: 260px;font-size: 17px;background: black;color: white;padding: 10px;left: 148px;right: 0;margin: 0 auto;width: fit-content;"
+                class="fadeIn">Next Gen</h2>
+            <img src="assets/img/endpoint.svg"
+                style="position: absolute;top: 40px;color: #29b5ac;padding: 10px;right: 349px;width: 113px;"
+                class="fadeIn">
+            <img src="assets/img/gateway_edge.svg"
+                style="position: absolute;top: 425px;color: #ff8001;padding: 10px;right: 207px;width: 76px;"
+                class="fadeIn">
+            <img src="assets/img/network.svg"
+                style="  position: absolute;top: 856px;color: #e31837;padding: 10px;right: 770px;width: 127px;transform: rotate(29deg);}"
+                class="fadeIn">
+            <img src="assets/img/cloud.svg"
+                style="position: absolute;top: 520px;color: #8622f7;padding: 10px;left: 350px;width: 71px;transform: rotate(15deg);"
+                class="fadeIn">
+            <img src="assets/img/applications.svg"
+                style="position: absolute;top: 58px;color: #76d842;padding: 10px;left: 439px;width: 145px;"
+                class="fadeIn">
+
+        </div>
+
+        <div id="info" class="info black" style="overflow:hidden;width:75%;background-color:rgb(233, 239, 244);display:none;">
+            <button id="close" class="main_button bg_corporatetwo black center" style="margin-top: 0px;">X</button>
+            <h1 id="title" class="push_down">Application Control</h1>
+            <p id="description" style="max-width: 55%; margin-top: 1em;">Application Control provides managed access and
+                rights for users to run applications on their network or corporate devices.</p>
+            <h5 id="description" class="push_down" style=";font-size: 1.2em;">Vendors that work in <span
+                    id="vendorsinarea" class="red">Application Control</span></h5>
+            <div style="display: flex;justify-content: left; width: 100%;flex-wrap: wrap;" id="info_vendor_logos"><img
+                    class="info_vendor_logos" title="Bitdefender"
+                    src="assets/img/Bitdefender_logo.svg"><img
+                    class="info_vendor_logos" title="Checkpoint"
+                    src="assets/img/Checkpoint_logo.svg"><img
+                    class="info_vendor_logos" title="Trend Micro"
+                    src="assets/img/TrendMicro_logo.svg"></div>
+            <h5 id="description" class="push_down" style="font-size: 1.2em;; !important;">Resources</h5>
+            <div style="display: flex;justify-content: center;display: flex;justify-content: left;width: 100%;flex-wrap: wrap;"
+                id="resources"><a class="main_button bg_blue white center info_resource_button"
+                    href="https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Bitdefender/Bitdefender-2015-NGZ-EndPointSecurity-DS-68189-A4-en_EN-web.pdf"
+                    target="_blank">Bitdefender</a><a class="main_button bg_blue white center info_resource_button"
+                    href="https://www.checkpoint.com/quantum/application-control/" target="_blank">Checkpoint</a><a
+                    class="main_button bg_blue white center info_resource_button"
+                    href="https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/TrendMicro/ds-cloud-one-application-security.pdf"
+                    target="_blank">Trend Micro</a></div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/highcharts.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/SecurityMaturityWheel.js"></script>
+
+</body>
+
+</html>
