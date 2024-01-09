@@ -1438,7 +1438,7 @@
 			"textcolor": "#fff",
 			"color": "#76D842",
 			"sliced": false,
-			"name": "Applications Security",
+			"name": "Application Control",
 			"vendors": ["Bitdefender", "Checkpoint", "Trend Micro"],
 			"threats": [""],
 			"resources": [
