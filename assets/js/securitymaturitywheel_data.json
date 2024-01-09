@@ -1,0 +1,1490 @@
+{
+	"inner": [{
+			"y": 10,
+			"margin": 10,
+			"textcolor": "#fff",
+			"color": "#29B5AC",
+			"sliced": false,
+			"name": "Insider<br>Threat",
+			"vendors": ["Forcepoint", "Netwrix"],
+			"threats": ["Insider Threat", "Social Engineering / BEC"],
+			"resources": [
+				{
+				"url": "https://www.forcepoint.com/security/insider-threat",
+				"title": "Forcepoint"
+				},
+				{
+					"url": "https://www.netwrix.com/insider_threat_detection.html",
+					"title": "Netwrix"
+					}
+			],
+			"description": "Insider Threats refers to tools that are used to identify, block and remediate potential threats from trusted users or devices within a network. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#29B5AC",
+			"sliced": false,
+			"name": "UEBA",
+			"vendors": ["Forcepoint"],
+			"threats": ["Employees Working From Home", "Insider Threat", "Social Engineering / BEC", "IoT exploit"],
+			"resources": [{
+				"url": "https://www.forcepoint.com/product/ueba-user-entity-behavior-analytics",
+				"title": "Forcepoint"
+			}],
+			"description": "User and Entity Behaviour Analystics (UEBA) uses the behaviour of users to understand and predict potential threats to the network."
+		},
+		{
+			"y": 10,
+			"margin": -5,
+			"textcolor": "#fff",
+			"color": "#29B5AC",
+			"sliced": false,
+			"name": "Digital Rights Management",
+			"vendors": ["ZeroFox"],
+			"threats": [""],
+			"resources": [{
+				"url": "https://www.helpsystems.com/product-lines/vera",
+				"title": "ZeroFox"
+			}],
+			"description": "Digital Rights Management (DRM) secures sensitive data through its entire life cycle, everywhere it travels, no matter who has it or where it’s stored."
+		},
+		{
+			"y": 10,
+			"margin": -10,
+			"textcolor": "#fff",
+			"color": "#29B5AC",
+			"sliced": false,
+			"name": "File Integrity Monitoring",
+			"vendors": ["Fortra", "Netwrix"],
+			"threats": [""],
+			"resources": [
+				{
+				"url": "https://www.tripwire.com/",
+				"title": "Fortra - Tripwire"
+				},
+				{
+					"url": "https://www.netwrix.com/file_integrity_monitoring.html",
+					"title": "Netwrix"
+					}
+			],
+			"description": "File Integrity Monitoring reduces risk with security monitoring and change detection, for visibility into changes on your network and risk remediation"
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#FF8002",
+			"sliced": false,
+			"name": "Zero Trust/ZTNA",
+			"vendors": ["Aryaka", "Checkpoint", "Cloudflare", "Dope Security", "Ericom", "Forcepoint", "iboss"],
+			"threats": ["Employees Working From Home", "Insider Threat", "Social Engineering / BEC"],
+			"resources": [
+				{
+				"url": "https://info.aryaka.com/aryaka-security-architecture.html",
+				"title": "Aryaka"
+				},
+				{
+				"url": "https://www.checkpoint.com/cyber-hub/network-security/what-is-zero-trust-network-access-ztna/",
+				"title": "Checkpoint"
+				},
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Cloudflare/Cloudflare_Improve-Security-with-Zero-Trust-Network-Access_2-Pager_Partner-Network.pdf",
+				"title": "Cloudflare"
+				},
+				{
+					"url": "https://cyberw1ng.medium.com/zero-trust-architecture-a-comprehensive-guide-to-reinventing-cybersecurity-karthikeyan-nagaraj-b1fd4e538dd0",
+					"title": "Dope Security"
+					},
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Ericom/Ericom Shield Cloud Service datasheet.pdf",
+				"title": "Ericom"
+				},
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Forcepoint/datasheet_private_acess_en.pdf",
+				"title": "Forcepoint"
+				},
+				{
+				"url": "https://www.iboss.com/use-cases/microsoft/zero-trust-network-access/",
+				"title": "iboss"
+				}
+			],
+			"description": "Zero Trust is an infosec model that is based on providing strict access controls and not trusting anyone by default, even those already inside the network perimeter."
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#e31737",
+			"sliced": false,
+			"name": "Threat Hunting",
+			"vendors": ["Bitdefender","Checkpoint"],
+			"threats": ["IoT exploit"],
+			"resources": [
+				{
+				"url": "https://download.bitdefender.com/resources/files/News/CaseStudies/study/307/Bitdefender-Guide-GTHG-CREA4120-en-EN-interactive.pdf",
+				"title": "Bitdefender"
+				},
+				{
+					"url": "https://www.checkpoint.com/cyber-hub/cloud-security/what-is-threat-hunting/",
+					"title": "Checkpoint"
+				}
+			],
+			"description": "Threat Hunting is a more proactive approach, assuming a network or infrastructure has potentially been compromised and looking for hidden malware or bad actors. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#e31737",
+			"sliced": false,
+			"name": "Threat<br>Removal",
+			"vendors": ["Forcepoint"],
+			"threats": ["Ransomware", "IoT exploit"],
+			"resources": [{
+				"url": "https://www.deep-secure.com/forcepoint.php",
+				"title": "Forcepoint"
+			}],
+			"description": "Threat Removal is a proactive, detection-based approach that intercepts data on its way to its destination, and re-builds it securely."
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#e31737",
+			"sliced": false,
+			"name": "SOAR",
+			"vendors": ["Fortra"],
+			"threats": [""],
+			"resources": [""],
+			"description": "SOAR (Security orchestration, automation, and response) delivers faster response times, with streamlined and automated incident response workflows. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#e31737",
+			"sliced": false,
+			"name": "Red Teaming",
+			"vendors": ["Fortra"],
+			"threats": [""],
+			"resources": [{
+				"url": "https://www.helpsystems.com/product-lines/cobalt-strike",
+				"title": "Fortra"
+			}],
+			"description": "Threat emulation tools mimick an advanced, stealthy threat actor that’s been embedded in an IT environment for running Adversary Simulations."
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#e31737",
+			"sliced": false,
+			"name": "Attack Surface Management",
+			"vendors": ["Red Sift"],
+			"threats": [""],
+			"resources": [{
+				"url": "https://redsift.com/solutions-by-need/monitor-your-attack-surface#product-showcase",
+				"title": "Red Sift"
+			}],
+			"description": "Attack surface management (ASM) is the continuous discovery, analysis, remediation and monitoring of the cybersecurity vulnerabilities and potential attack vectors that make up an organisation's attack surface."
+		},
+		{
+			"y": 10,
+			"margin": -5,
+			"textcolor": "#fff",
+			"color": "#8622F7",
+			"sliced": false,
+			"name": "Container Security",
+			"vendors": ["Bitdefender", "Checkpoint","Trend Micro"],
+			"threats": ["Cloud Misconfiguration", "Zero Day Attacks"],
+			"resources": [
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Bitdefender/Bitdefender-NGZ-UltraSuite-Datasheet-CREAT5527-A4-en_EN-interactive.pdf",
+				"title": "Bitdefender"
+				},
+				{
+					"url": "https://www.checkpoint.com/cloudguard/container-security/",
+					"title": "Checkpoint"
+				},
+				{
+					"url": "https://www.trendmicro.com/en_gb/what-is/container-security.html#:~:text=This%20means%20protecting%20your%20build,an%20ever%2Dgrowing%20attack%20surface",
+					"title": "Trend Micro"
+				}
+			],
+			"description": "Container security implements and manages security tools and policies to provide protection within any container (such as for Docker or Kubernetes)"
+		},
+		{
+			"y": 10,
+			"margin": -10,
+			"textcolor": "#fff",
+			"color": "#8622F7",
+			"sliced": false,
+			"name": "Browser Isolation / RBI",
+			"vendors": ["Checkpoint", "Cloudflare", "Ericom", "Forcepoint"],
+			"threats": ["Employees Working From Home"],
+			"resources": [
+				{
+					"url": "https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-remote-browser-isolation-rbi/",
+					"title": "Checkpoint"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Cloudflare/Cloudflare Partner Network_2-Pager_Browser Isolation.pdf",
+					"title": "Cloudflare"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Ericom/shield_datasheet.pdf",
+					"title": "Ericom"
+				},
+				{
+					"url": "https://www.forcepoint.com/product/remote-browser-isolation",
+					"title": "Forcepoint"
+				},
+				{
+					"url": "https://www.iboss.com/platform/remote-browser-isolation/",
+					"title": "iboss"
+				}
+			],
+			"description": "Remote Browser Isolation (RBI) uses a Zero Trust approach to browsing, run the session in the cloud away from your networks and endpoints, insulating devices and the user from attacks."
+		},
+		{
+			"y": 10,
+			"margin": -10,
+			"textcolor": "#fff",
+			"color": "#8622F7",
+			"sliced": false,
+			"name": "Digital Risk Protection",
+			"vendors": ["ZeroFox", "Fortra", "Skurio"],
+			"threats": [""],
+			"resources": [
+				{
+					"url": "https://www.zerofox.com/platform/",
+					"title": "ZeroFox"
+				},
+				{
+					"url": "https://www.phishlabs.com/",
+					"title": "Fortra - PhishLabs"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Skurio/The-essential-guide-to-Digital-Risk-Protection-2022-edition.pdf",
+					"title": "Skurio"
+				}
+			],
+			"description": "Digital Risk Protection provides external cybersecurity, encompasses threat intelligence, protection and response solutions with visibility and protection beyond the network perimeter across the surface, deep and dark web"
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#76D842",
+			"sliced": false,
+			"name": "DevSecOps",
+			"vendors": ["Trend Micro"],
+			"threats": ["Cloud Misconfiguration"],
+			"resources": [
+				{
+				"url": "https://www.trendmicro.com/en_gb/devops/21/d/devsecops-how-to-systematize-security-into-the-dev-pipeline.html",
+				"title": "Trend Micro"
+				}
+			],
+			"description": "DevSecOps helps automate and integrate infosecurity into every stage of the application development lifecycle. "
+		},
+		{
+			"y": 10,
+			"margin": -20,
+			"textcolor": "#fff",
+			"color": "#76D842",
+			"sliced": false,
+			"name": "Application Security",
+			"vendors": ["Contrast Security", "Fortra"],
+			"threats": ["Cloud Misconfiguration"],
+			"resources": [
+				{
+				"url": "https://www.contrastsecurity.com/secure-code-with-contrast?hsLang=en",
+				"title": "Contrast Security"
+				},
+				{
+					"url": "https://www.helpsystems.com/product-lines/beyond-security",
+					"title": "Fortra - Beyond Security"
+					}
+			],
+			"description": "Application Security secures code moving through the entire application development pipeline and continuously protect applications across the complete software lifecycle"
+		}
+	],
+	"middle": [{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#29B5AC",
+			"sliced": false,
+			"name": "EDR",
+			"vendors": ["Bitdefender", "Checkpoint", "Deep Instinct", "Trend Micro"],
+			"threats": ["Employees Working From Home", "Ransomware", "IoT exploit"],
+			"resources": [
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Bitdefender/Bitdefender-NGZ-UltraSuite-Datasheet-CREAT5527-A4-en_EN-interactive.pdf",
+				"title": "Bitdefender"
+				},
+				{
+					"url": "https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-endpoint-detection-and-response/",
+					"title": "Checkpoint"
+				},
+				{
+					"url": "https://www.deepinstinct.com/endpoint-detection-response",
+					"title": "Deep Instinct"
+				},
+				{
+					"url": "https://www.trendmicro.com/en_my/business/products/user-protection/sps/endpoint/detection-response.html#:~:text=Protect%20your%20users%20with%20Endpoint%20Detection%20and%20Response%20(EDR)&text=Trend%20Micro%20has%20integrated%20layered,its%20automation%20and%20response%20capabilities",
+					"title": "Trend Micro"
+				}
+			],
+			"description": "EDR (Endpoint Detection and Response) proactively monitors the network and endpoints for threats, and includes analytics and event correlation capabilities to improve response speeds. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#29B5AC",
+			"sliced": false,
+			"name": "Data<br>Classification",
+			"vendors": ["Fortra", "Forcepoint", "Netwrix"],
+			"threats": ["Insider Threat"],
+			"resources": [
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/BoldonJames/BoldonJames_5Steps_Whitepaper.pdf",
+				"title": "Fortra - Boldon James"
+				},
+				{
+					"url": "https://www.forcepoint.com/cyber-edu/data-classification",
+					"title": "Forcepoint"
+				},
+				{
+					"url": "https://www.netwrix.com/information_governance_software.html",
+					"title": "Netwrix"
+				}
+			],
+			"description": "Data Classification organises and tags data anywhere on a network, for more efficient profiling and protection by security tools. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#29B5AC",
+			"sliced": false,
+			"name": "MDR",
+			"vendors": ["Bitdefender", "Checkpoint","Trend Micro", "Fortra"],
+			"threats": ["Ransomware", "IoT exploit"],
+			"resources": [
+				{
+				"url": "https://www.bitdefender.com/business/enterprise-products/managed-detection-response-service.html",
+				"title": "Bitdefender"
+				},
+				{
+					"url": "https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-managed-detection-and-response-mdr/",
+					"title": "Checkpoint"
+				},
+				{
+					"url": "https://www.trendmicro.com/vinfo/us/security/definition/managed-detection-and-response#:~:text=Managed%20detection%20and%20response%20(MDR,threats%20once%20they%20are%20discovered",
+					"title": "Trend Micro"
+					},
+					{
+						"url": "https://www.alertlogic.com/",
+						"title": "Fortra - Alert Logic"
+						}
+			],
+			"description": "MDR (Managed Detection and Response) takes EDR and provides it as a managed service, utilising a team of analysts in a SOC to hutn for potential threats and respond in realtime."
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#29B5AC",
+			"sliced": false,
+			"name": "Secure File Transfer",
+			"vendors": ["Fortra"],
+			"threats": [""],
+			"resources": [
+				{
+				"url": "https://www.helpsystems.com/solutions/cybersecurity/encryption",
+				"title": "Fortra"
+				}
+			],
+			"description": "Secure File Transfer helps protect data and files in transit, using encryption, authentication and automation to maximise security and meet compliance requirements."
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#29B5AC",
+			"sliced": false,
+			"name": "XDR",
+			"vendors": ["Trend Micro","Bitdefender", "Checkpoint"],
+			"threats": [""],
+			"resources": [
+				{
+				"url": "https://www.trendmicro.com/en_gb/what-is/xdr.html#:~:text=XDR%20(extended%20detection%20and%20response,response%20times%20through%20security%20analysis",
+				"title": "Trend Micro"
+				},
+				{
+					"url": "https://www.bitdefender.co.uk/business/gravityzone-platform/xdr-extended-detection-and-response.html#:~:text=Bitdefender%20GravityZone%20XDR%20(extended%20detection,detection%20and%20rapid%2C%20guided%20response",
+					"title": "Bitdefender"
+					},
+					{
+						"url": "https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-xdr-extended-detection-and-response/#:~:text=Check%20Point's%20Horizon%20XDR%2FXPR,your%20environment%2C%20contact%20us%20today ",
+						"title": "Check Point"
+						}
+			],
+			"description": "Extended Detection and Response (XDR) is a consolidation of tools and data that provides extended visibility, analysis, and response across endpoints, workloads, users, and networks."
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#FF8002",
+			"sliced": false,
+			"name": "Private Access",
+			"vendors": ["Aryaka", "Cloudflare", "Ericom", "Forcepoint", "iboss"],
+			"threats": ["Employees Working From Home"],
+			"resources": [
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Aryaka/smartsecure-private-access-datasheet.pdf",
+				"title": "Aryaka"
+				},
+				{
+					"url": "https://www.ericom.com/solutions/secure-application-access/",
+					"title": "Ericom"
+				},
+				{
+					"url": "https://www.cloudflare.com/en-gb/products/zero-trust/access/",
+					"title": "Cloudflare"
+				},
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Forcepoint/datasheet_private_acess_en.pdf",
+				"title": "Forcepoint"
+				},
+				{
+				"url": "https://www.iboss.com/private-access-vpn-replacement/",
+				"title": "iboss"
+				}
+			],
+			"description": "Private Access provides secure access to private cloud or legacy network applications without the need for a VPN. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#FF8002",
+			"sliced": false,
+			"name": "DDos",
+			"vendors": ["Checkpoint", "Cloudflare", "Forcepoint", "Radware"],
+			"threats": [""],
+			"resources": [
+				{
+					"url": "https://www.checkpoint.com/cyber-hub/cyber-security/what-is-ddos/",
+					"title": "Checkpoint"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Cloudflare/Cloudflare DDoS_Partner-Network.pdf",
+					"title": "Cloudflare"
+				},
+				{
+					"url": "https://www.forcepoint.com/sites/default/files/resources/files/datasheet_forcepoint_ngfw_en_0.pdf",
+					"title": "Forcepoint"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Radware/Radware_Cloud_DDoS_Protection_Service_Datasheet-2020-Final.pdf",
+					"title": "Radware"
+				}
+			],
+			"description": "A Distributed Denial-of-Service (DDoS) attack occurs when multiple devices or systems make an internet-facing resource unavailable through a flood of connections. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#FF8002",
+			"sliced": false,
+			"name": "SASE",
+			"vendors": ["Aryaka", "Checkpoint", "Cloudflare", "Forcepoint", "iboss"],
+			"threats": ["Employees Working From Home"],
+			"resources": [
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Aryaka/smartsecure-firewall-and-security-as-a-service-datasheet.pdf",
+				"title": "Aryaka"
+				},
+				{
+				"url": "https://www.checkpoint.com/cyber-hub/network-security/what-is-secure-access-service-edge-sase/",
+				"title": "Checkpoint"
+				},
+				{
+					"url": "https://www.cloudflare.com/static/52527ba193cc7ab0da6c23075d093ab3/Cloudflare_One_SASE_Whitepaper.pdf ",
+					"title": "Cloudflare"
+					},
+				{
+				"url": "https://www.forcepoint.com/use-case/sase-security",
+				"title": "Forcepoint"
+				},
+				{
+				"url": "https://www.iboss.com/sase/",
+				"title": "iboss"
+				}
+			],
+			"description": "Secure Access Service Edge (SASE)  is a cloud-based model that combines software-defined networking with network security functions and delivers them from a single service provider. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#e31737",
+			"sliced": false,
+			"name": "ATP",
+			"vendors": ["Bitdefender", "Trend Micro"],
+			"threats": ["Ransomware"],
+			"resources": [
+				{
+				"url": "https://www.bitdefender.co.uk/business/solutions/endpoint-security.html",
+				"title": "Bitdefender"
+				},
+				{
+					"url": "https://www.trendmicro.com/en_gb/business/capabilities/antimalware-atp.html",
+					"title": "Trend Micro"
+				}
+			],
+			"description": "ATP (Advanced Threat Protection) is designed to defend against unknown threats, complimenting traditional security, often using ML and AI techniques. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#e31737",
+			"sliced": false,
+			"name": "Auditing",
+			"vendors": ["Netwrix"],
+			"threats": [""],
+			"resources": [
+				{
+				"url": "https://www.netwrix.com/auditor.html",
+				"title": "Netwrix"
+				}
+			],
+			"description": "A cybersecurity audit involves a comprehensive analysis and review of an IT infrastructure. It detects vulnerabilities and threats, displaying weak links and high-risk practices."
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#e31737",
+			"sliced": false,
+			"name": "Breach and Attack<br>Simulation",
+			"vendors": ["Fortra", "Picus"],
+			"threats": ["Zero Day Attacks", "IoT exploit"],
+			"resources": [
+				{
+					"url": "https://www.helpsystems.com/products/penetration-testing-software",
+					"title": "Fortra - Core Impact"
+					},
+					{
+						"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Picus/Picus-BAS-Checklist.pdf",
+						"title": "Picus"
+						}
+			],
+			"description": "Breach Simulation is designed to automate and continuously validate cybersecurity defences and controls across the kill chain, especially against new threats and techniques. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#e31737",
+			"sliced": false,
+			"name": "DNS Security",
+			"vendors": ["Bluecat", "Cloudflare"],
+			"threats": [""],
+			"resources": [
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/BlueCat/data-sheet-dns-edge.pdf",
+					"title": "Bluecat"
+					},
+					{
+						"url": "https://www.cloudflare.com/en-gb/dns",
+						"title": "Cloudflare"
+						}
+			],
+			"description": "DNS (Domain Name System) security provides visibility of all network traffic, helping spots threats quicker and locking down networks in the event of an attack."
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#e31737",
+			"sliced": false,
+			"name": "Privileged<br>Access<br>Management",
+			"vendors": ["Netwrix"],
+			"threats": [""],
+			"resources": [
+				{
+					"url": "https://www.netwrix.com/privileged_account_manager.html",
+					"title": "Netwrix"
+					}
+			],
+			"description": "Privileged access management (PAM) is an identity security solution that helps protect organisations against cyberthreats by monitoring, detecting, and preventing unauthorised privileged access to critical resources."
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#e31737",
+			"sliced": false,
+			"name": "SIEM",
+			"vendors": ["Fortra"],
+			"threats": ["Social Engineering / BEC", "IoT exploit"],
+			"resources": [
+				{
+					"url": "https://www.helpsystems.com/products/siem-software",
+					"title": "Fortra - Event Manager"
+				}
+			],
+			"description": "SIEM (Security Incident and Event Management) combines  information and security event management, co-ordinating and analysing data from multiple sources. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#e31737",
+			"sliced": false,
+			"name": "Policy Automation",
+			"vendors": ["Tufin"],
+			"threats": ["Social Engineering / BEC", "IoT exploit"],
+			"resources": [
+				{
+					"url": "https://lp.tufin.com/rs/769-ICF-145/images/tufin-orchestration-suite-brochure.pdf ",
+					"title": "Tufin"
+				}
+			],
+			"description": "Security Policy Automation allows visibility and control over all on-premises and cloud perimeter assets,<br/> by deploying security policies consistently across all infrastructure to allow easier management and auditing."
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#e31737",
+			"sliced": false,
+			"name": "Threat Intelligence",
+			"vendors": ["Bitdefender", "Bluecat", "Checkpoint", "Cloudflare", "ZeroFox"],
+			"threats": ["Insider Threat", "Social Engineering / BEC"],
+			"resources": [
+				{
+				"url": "https://www.bitdefender.co.uk/oem/advanced-threat-intelligence.html",
+				"title": "Bitdefender"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/BlueCat/data-sheet-dns-edge.pdf",
+					"title": "Bluecat"
+				},
+				{
+					"url": "https://www.checkpoint.com/cyber-hub/cyber-security/what-is-threat-intelligence/",
+					"title": "Checkpoint"
+				},
+				{
+					"url": "https://blog.cloudflare.com/security-center/Security Center",
+					"title": "Cloudflare"
+				},
+				{
+					"url": "https://www.zerofox.com/threat-intelligence",
+					"title": "ZeroFox"
+				}
+			],
+			"description": "Threat Intelligence helps feed into and compliment existing technologies, with third-party insights to more quickly identify new threats, trends and exploits. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#8622F7",
+			"sliced": false,
+			"name": "Workload Protection",
+			"vendors": ["Checkpoint", "Trend Micro"],
+			"threats": ["Cloud Misconfiguration", "Zero Day Attacks"],
+			"resources": [
+				{
+				"url": "https://www.checkpoint.com/cloudguard/workload-protection/",
+				"title": "Checkpoint"
+				},
+				{
+					"url": "https://www.trendmicro.com/en_gb/business/products/hybrid-cloud/cloud-one-workload-security.html",
+					"title": "Trend Micro"
+				}
+			],
+			"description": "Cloud workload protection is the protection and best practice security protocols placed around your cloud workloads (such as entail files, containers, functions, nodes, etc.)"
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#8622F7",
+			"sliced": false,
+			"name": "Cloud Policy Orchestration",
+			"vendors": ["Checkpoint", "Trend Micro"],
+			"threats": ["Cloud Misconfiguration"],
+			"resources": [
+				{
+				"url": "https://www.checkpoint.com/downloads/partners/check-point-tufin-security-policy-orchestration-solution-brief.pdf",
+				"title": "Checkpoint"
+				},
+				{
+					"url": "www.trendmicro.com/en_gb/business/products/hybrid-cloud/cloud-one-conformity.html?modal=s3b-icon-datasheet-c64c8a",
+					"title": "Trend Micro"
+					}
+			],
+			"description": "Cloud orchestration helps manage all connections and interactions on public and private cloud infrastructure, automating tasks, reporting and policy enforcement. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#8622F7",
+			"sliced": false,
+			"name": "BOT Management",
+			"vendors": ["Cloudflare", "Radware"],
+			"threats": [""],
+			"resources": [
+				{
+				"url": "https://www.cloudflare.com/en-gb/learning/bots/what-is-bot-management/",
+				"title": "Cloudflare"
+				},
+				{
+				"url": "https://www.radware.com/products/bot-manager/",
+				"title": "Radware"
+				}
+			],
+			"description": "Bot management involves identifying and blocking some bots from a website or application, while still allowing access to other bots that are legitmate or authorised. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#8622F7",
+			"sliced": false,
+			"name": "CNAPP",
+			"vendors": ["Checkpoint", "Trend Micro"],
+			"threats": [""],
+			"resources": [
+				{
+				"url": "https://www.youtube.com/watch?v=8RG3OFN_-iw",
+				"title": "Checkpoint"
+				},
+				{
+				"url": "https://www.trendmicro.com/en_gb/business/products/hybrid-cloud/cloud-native-application-development.html?modal=s1b-hero-video-overview-353524",
+				"title": "Trend Micro"
+				}
+			],
+			"description": "CNAPP (Cloud Native Application Protection) provides security across the application lifecycle, encompassing features such as scanning, runtime protection and checking for misconfiguration."
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#76D842",
+			"sliced": false,
+			"name": "ITDR",
+			"vendors": ["Netwrix"],
+			"threats": [""],
+			"resources": [
+				{
+					"url": "https://www.netwrix.com/active_directory_security_tools.html",
+					"title": "Netwrix"
+					}
+			],
+			"description": "ITDR (Identity Threat Detection and Response) continuously validates to prevent network takeovers, focusing on identity repositories (like Active Directory) to prevent misconfigurations and detects attacks in real-time"
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#76D842",
+			"sliced": false,
+			"name": "WAF",
+			"vendors": ["Checkpoint", "Cloudflare", "Radware"],
+			"threats": ["Zero Day Attacks"],
+			"resources": [
+				{
+				"url": "https://www.checkpoint.com/cyber-hub/cloud-security/what-is-web-application-firewall/",
+				"title": "Checkpoint"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Cloudflare/WAF_data_sheet_final.pdf",
+					"title": "Cloudflare"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Radware/rad1894_Radware_Cloud_WAF_Service_DS_r2.pdf",
+					"title": "Radware"
+				}
+			],
+			"description": "A Web Application Firewall (WAF) helps protect websites and web applications against attacks, exploits and threats. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#76D842",
+			"sliced": false,
+			"name": "SSO",
+			"vendors": ["Swivel Secure"],
+			"threats": ["Insider Threat", "Social Engineering / BEC"],
+			"resources": [
+				{
+					"url": "https://swivelsecure.com/authcontrol-sentry-multi-factor-authentication/single-sign-on/",
+					"title": "Swivel Secure"
+				}
+			],
+			"description": "Single Sign On (SSO) alows a user to sign on once, but syndicates access to multiple systems or applications. "
+		}
+	],
+	"outer": [{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#29B5AC",
+			"sliced": false,
+			"name": "Anti-Virus/Malware",
+			"vendors": ["Bitdefender", "Checkpoint",  "Trend Micro"],
+			"threats": ["Employees Working From Home", "Ransomware", "IoT exploit"],
+			"resources": [
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Bitdefender/Bitdefender-2015-NGZ-EndPointSecurity-DS-68189-A4-en_EN-web.pdf",
+				"title": "Bitdefender"
+				},
+				{
+					"url": "https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-antivirus/",
+					"title": "Checkpoint"
+				},
+				{
+					"url": "https://www.trendmicro.com/en_gb/business/capabilities/antimalware-atp.html",
+					"title": "Trend Micro"
+				}
+			],
+			"description": "Anti-Virus or Anti-Malware helps protect endpoints against attacks or compromise by malicious software. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#29B5AC",
+			"sliced": false,
+			"name": "Security Education",
+			"vendors": ["Censornet", "Cofense", "Trend Micro", "Fortra"],
+			"threats": ["Employees Working From Home", "Social Engineering / BEC"],
+			"resources": [
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Cofense/Cofense-Datasheet_Pro-Services.pdf",
+				"title": "Cofense"
+				},
+				{
+					"url": "https://terranovasecurity.com/",
+					"title": "Fortra - Terranova"
+					},
+					{
+						"url": " https://www.censornet.com/insights-events/resource/security-awareness-training-sat-datasheet/",
+						"title": "Censornet"
+						}
+			],
+			"description": "Security Education provides training, knowledge-transfer, simulations and content for on-going employee traing and awareness. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#29B5AC",
+			"sliced": false,
+			"name": "Encryption",
+			"vendors": ["Bitdefender", "Checkpoint", "Fortra", "Trend Micro"],
+			"threats": ["Ransomware"],
+			"resources": [
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Bitdefender/Bitdefender-2017-Datasheet-GravityZone-EliteSecurity.pdf",
+				"title": "Bitdefender"
+				},
+				{
+					"url": "https://www.checkpoint.com/downloads/products/endpoint-security-full-disk-encryption-datasheet.pdf",
+					"title": "Checkpoint"
+				},
+				{
+					"url": "https://www.helpsystems.com/solutions/cybersecurity/encryption",
+					"title": "Fortra"
+					},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/TrendMicro/DS07_EndpointEncryption_ENT_150908US.pdf",
+					"title": "Trend Micro"
+				}
+			],
+			"description": "Encryption helps secure data-at-rest, by encrypting data for endpoints against physical device post-theft data exfiltration. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#29B5AC",
+			"sliced": false,
+			"name": "Mobile<br>Security",
+			"vendors": ["Bitdefender", "Checkpoint", "Trend Micro"],
+			"threats": ["Employees Working From Home", "Ransomware"],
+			"resources": [
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Bitdefender/Bitdefender-2015-NGZ-MobileDevicesSecurity-DS-68209-A4-en_EN-web.pdf",
+				"title": "Bitdefender"
+				},
+				{
+					"url": "https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-mobile-security/",
+					"title": "Checkpoint"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/TrendMicro/sb-mobile-network-security.pdf",
+					"title": "Trend Micro"
+				}
+			],
+			"description": "Mobile Security encompasses endpoint security for mobile and tablet devices, both the OS (such as iOS/Android) and apps. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#29B5AC",
+			"sliced": false,
+			"name": "DLP/<br>Data Security",
+			"vendors": ["Fortra","Checkpoint","Cloudflare","Forcepoint","Proofpoint","Trend Micro"],
+			"threats": ["Insider Threat", "Social Engineering / BEC"],
+			"resources": [
+				{
+					"url": "https://www.helpsystems.com/solutions/cybersecurity/data-security/data-loss-prevention ",
+					"title": "Fortra - Boldon James"
+				},
+				{
+					"url": "https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-data-loss-prevention/",
+					"title": "Checkpoint"
+				},
+				{
+					"url": "https://www.cloudflare.com/en-gb/learning/access-management/what-is-dlp/",
+					"title": "Cloudflare"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Forcepoint/datasheet_forcepoint_dlp_for_web_and_email_en_0.pdf",
+					"title": "Forcepoint"
+				},
+				{
+					"url": "https://www.proofpoint.com/uk/products/information-protection/endpoint-dlp",
+					"title": "Proofpoint"
+				},
+				{
+					"url": "https://www.trendmicro.com/en_in/business/products/user-protection/sps/endpoint/integrated-data-loss-prevention.html#:~:text=Integrated%20Data%20Loss%20Prevention%20is,SaaS%20applications%2C%20and%20mobile%20devices",
+					"title": "Trend Micro"
+				}
+			],
+			"description": "DLP (Data Loss Prevention) helps organises identify, track and secure confidential data to protect it from leaving, either through accidental or deliberate loss."
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#FF8002",
+			"sliced": false,
+			"name": "VPN",
+			"vendors": ["Aryaka", "Checkpoint", "Cloudflare", "Forcepoint"],
+			"threats": ["Employees Working From Home"],
+			"resources": [
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Aryaka/SmartSecure-VPN-accelerate-ds.pdf",
+				"title": "Aryaka"
+				},
+				{
+					"url": "https://www.checkpoint.com/cyber-hub/network-security/what-is-vpn/what-is-remote-secure-access-vpn/",
+					"title": "Checkpoint"
+				},
+				{
+					"url": "https://cf-assets.www.cloudflare.com/slt3lc6tev37/IcpGyTHplQhOeB60k1Egp/e49211fc4482b67f3bf264c22923ef5c/Can_ZTNA_replace_your_VPN ",
+					"title": "Cloudflare"
+				},
+				{
+					"url": "https://www.forcepoint.com/sites/default/files/resources/datasheets/datasheet_forcepoint_ngfw_en_0.pdf",
+					"title": "Forcepoint"
+				}
+			],
+			"description": "Virtual Private Networks (VPNs) help users and devices connect securely to remote networks. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#FF8002",
+			"sliced": false,
+			"name": "Network<br>Firewall",
+			"vendors": ["Checkpoint", "Cloudflare", "Forcepoint", "iboss"],
+			"threats": ["Zero Day Attacks"],
+			"resources": [
+				{
+				"url": "https://www.checkpoint.com/cyber-hub/network-security/what-is-network-firewall/",
+				"title": "Checkpoint"
+				},
+				{
+					"url": "https://www.cloudflare.com/en-gb/learning/security/what-is-a-firewall/",
+					"title": "Cloudflare"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Forcepoint/datasheet_forcepoint_ngfw_en_0.pdf",
+					"title": "Forcepoint"
+				},
+				{
+					"url": "https://www.iboss.com/platform/outbound-firewall-protection/",
+					"title": "iboss"
+				}
+			],
+			"description": "A network firewall is a gateway device that monitors and controls incoming and outgoing network traffic, with defined rules and policies to prevent unauthorised access to a network. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#FF8002",
+			"sliced": false,
+			"name": "Web Security",
+			"vendors": ["Censornet", "Checkpoint", "Cloudflare", "Dope Security", "Ericom", "Forcepoint", "iboss", "Trend Micro"],
+			"threats": [""],
+			"resources": [
+				{
+					"url": "https://www.censornet.com/insights-events/resource/web-security-datasheet/",
+					"title": "Censornet"
+				},
+				{
+					"url": "https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-web-security/",
+					"title": "Checkpoint"
+				},
+				{
+					"url": "https://www.cloudflare.com/en-gb/learning/security/what-is-web-application-security/",
+					"title": "Cloudflare"
+				},
+				{
+					"url": "https://uploads-ssl.webflow.com/623381c2c01066b228a1670b/64f64abeba3db4524c3d890f_ds-doc-whitepaper_2023Aug.pdf",
+					"title": "Dope Security"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Ericom/Ericom Shield Cloud Service datasheet.pdf",
+					"title": "Ericom"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Forcepoint/datasheet_forcepoint_casb_en_0.pdf",
+					"title": "Forcepoint"
+				},
+				{
+					"url": "https://www.iboss.com/resources/roi-calculator/",
+					"title": "iboss"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/TrendMicro/ds-web-security.pdf",
+					"title": "Trend Micro"
+				}
+			],
+			"description": "Web security provides protection for any users or devices accessing public web applications or services. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#FF8002",
+			"sliced": false,
+			"name": "Email Security",
+			"vendors": ["Bitdefender", "Censornet", "Checkpoint", "Cloudflare", "Cofense", "Forcepoint", "Fortra", "Proofpoint", "Trend Micro"],
+			"threats": ["Social Engineering / BEC"],
+			"resources": [
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Bitdefender/Bitdefender-2017-Datasheet-GravityZone-EliteSecurity.pdf",
+				"title": "Bitdefender"
+				},
+				{
+					"url": "https://www.censornet.com/insights-events/resource/email-security-datasheet/",
+					"title": "Censornet"
+				},
+				{
+					"url": "https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-email-security/",
+					"title": "Checkpoint"
+				},
+				{
+					"url": "https://blog.cloudflare.com/why-we-are-acquiring-area-1/",
+					"title": "Cloudflare"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Cofense/Cofense-Datasheet_PhishMe.pdf",
+					"title": "Cofense"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Forcepoint/brochure_forcepoint_email_security_en.pdf",
+					"title": "Forcepoint"
+				},
+				{
+					"url": "https://www.helpsystems.com/solutions/cybersecurity/data-security/email-security",
+					"title": "Fortra"
+					},
+					{
+						"url": "https://www.proofpoint.com/uk/solutions/combat-email-and-cloud-threats",
+						"title": "Proofpoint"
+						},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/TrendMicro/ds_email_security.pdf",
+					"title": "Trend Micro"
+				}
+			],
+			"description": "Email Security provides protection and security for email gateways or applications. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#FF8002",
+			"sliced": false,
+			"name": "Phishing Protection",
+			"vendors": ["Bitdefender", "Cloudflare", "Cofense", "Forcepoint", "Trend Micro"],
+			"threats": ["Social Engineering / BEC"],
+			"resources": [
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Bitdefender/Bitdefender-2015-NGZ-SecurityForExchange-DS-70269-A4-en_EN-web.pdf",
+				"title": "Bitdefender"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Cloudflare/Cloudflare Partner Network_2-Pager_Threat Defense.pdf",
+					"title": "Cloudflare"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Cofense/REFERENCE_GUIDE_Phishing_PhishMe2_0118__8_.pdf",
+					"title": "Cofense"
+				},
+				{
+					"url": "https://www.forcepoint.com/cyber-edu/phishing-attack",
+					"title": "Forcepoint"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/TrendMicro/ds_email_security.pdf",
+					"title": "Trend Micro"
+				}
+			],
+			"description": "Phishing protection detects and defends against potential phishing attacks through email gateways. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#e31737",
+			"sliced": false,
+			"name": "Automated Pen Testing",
+			"vendors": ["Fortra"],
+			"threats": ["Zero Day Attacks"],
+			"resources": [
+				{
+					"url": "https://www.helpsystems.com/products/penetration-testing-software",
+					"title": "Fortra - Core Impact"
+					}
+			],
+			"description": "Pen / Penetration Testing is a service to simulate a cyberattack on a network, application or infrastructure, to identify potential vulnerabilities or gaps in the defences. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#e31737",
+			"sliced": false,
+			"name": "IPS",
+			"vendors": ["Checkpoint", "Forcepoint", "Trend Micro"],
+			"threats": [""],
+			"resources": [
+				{
+				"url": "https://www.checkpoint.com/cyber-hub/network-security/what-is-ips/",
+				"title": "Checkpoint"
+				},
+				{
+					"url": "https://www.forcepoint.com/cyber-edu/intrusion-prevention-system-ips",
+					"title": "Forcepoint"
+					},
+					{
+						"url": "https://www.trendmicro.com/en_gb/business/products/network/intrusion-prevention/tipping-point-threat-protection-system.html?modal=2d6bf5",
+						"title": "Trend Micro"
+						}
+			],
+			"description": "IPS (Intrusion Prevention System) is part of network security that works to detect and prevent identified threats, primarily through the gateway. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#e31737",
+			"sliced": false,
+			"name": "Identity Access Management",
+			"vendors": ["Censornet","Netwrix"],
+			"threats": ["Insider Threat"],
+			"resources": [
+				{
+					"url": "https://www.censornet.com/products/identity/",
+					"title": "Censornet"
+					},
+					{
+						"url": "https://www.netwrix.com/identity_access_management.html",
+						"title": "Netwrix"
+					}
+
+			],
+			"description": "ARM helps control and manage access to applications, data and networks by internal staff and external individuals and organisations. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#e31737",
+			"sliced": false,
+			"name": "DMARC",
+			"vendors": ["Red Sift", "Cloudflare"],
+			"threats": [""],
+			"resources": [{
+				"url": "https://ondmarc.redsift.com/learn-about-dmarc",
+				"title": "Red Sift"
+				},
+				{
+					"url": "https://blog.cloudflare.com/tackling-email-spoofing/",
+					"title": "Cloudflare"
+				}
+			],
+			"description": "Domain-based Message Authentication, Reporting & Conformance (DMARC) enables a domain owner to protect the domain against unauthorised use. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#8622F7",
+			"sliced": false,
+			"name": "SD-WAN",
+			"vendors": ["Aryaka", "Checkpoint", "Cloudflare", "Forcepoint"],
+			"threats": [""],
+			"resources": [
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Aryaka/smartsecure-firewall-and-security-as-a-service-datasheet.pdf",
+				"title": "Aryaka"
+				},
+				{
+					"url": "https://www.checkpoint.com/solutions/sd-wan-security/",
+					"title": "Checkpoint"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Cloudflare/BDES-1389_SASE-Infographic-V2_PTNR-GLB-EN-Sep21.pdf",
+					"title": "Cloudflare"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Forcepoint/datasheet_forcepoint_ngfw_en_0.pdf",
+					"title": "Forcepoint"
+				}
+			],
+			"description": "SD-WAN provides software-defined networking, delivering improvements in performance and management."
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#8622F7",
+			"sliced": false,
+			"name": "CAS/CASB",
+			"vendors": ["Censornet", "Checkpoint", "Cloudflare", "Forcepoint", "iboss", "Trend Micro"],
+			"threats": ["Cloud Misconfiguration", "Zero Day Attacks"],
+			"resources": [
+				{
+					"url": "https://www.censornet.com/insights-events/resource/cloud-application-security-casb/",
+					"title": "Censornet"
+				},
+				{
+					"url": "https://www.checkpoint.com/cyber-hub/cloud-security/what-is-casb/",
+					"title": "Checkpoint"
+				},
+				{
+					"url": "https://blog.cloudflare.com/cloudflare-zero-trust-casb/",
+					"title": "Cloudflare"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Forcepoint/datasheet_forcepoint_casb_en_0.pdf",
+					"title": "Forcepoint" 
+				},
+				{
+					"url": "https://www.iboss.com/platform/casb/",
+					"title": "iboss"
+				},
+				{
+					"url": "https://trendmicro.optrics.com/cloud-app-security.aspx",
+					"title": "Trend Micro"
+				}
+			],
+			"description": "Cloud Application Security (CAS) or Cloud Access Security Broker (CASB) acts as security service between users and a cloud application, to enforce security policies. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#8622F7",
+			"sliced": false,
+			"name": "Cloud<br>Security",
+			"vendors": ["Bitdefender", "Checkpoint", "Cloudflare", "Dope Security", "Forcepoint", "iboss", "Proofpoint", "Radware", "Trend Micro"],
+			"threats": ["Cloud Misconfiguration"],
+			"resources": [
+				{
+				"url": "https://www.bitdefender.co.uk/business/service-providers-products/cloud-security-msp.html",
+				"title": "Bitdefender"
+				},
+				{
+					"url": "https://www.checkpoint.com/cloudguard/cloud-security-solutions/",
+					"title": "Checkpoint"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Cloudflare/Cloudflare Partner Network_2-Pager_Threat Defense.pdf",
+					"title": "Cloudflare"
+				},
+				{
+					"url": "https://medium.com/educative/top-11-strategies-to-mitigate-cloud-security-threats-d561174656ed",
+					"title": "Dope Security"
+				},
+				{
+					"url": "https://www.forcepoint.com/cyber-edu/cloud-security",
+					"title": "Forcepoint"
+				},
+				{
+					"url": "https://www.iboss.com/platform/eliminate-network-security-appliances/",
+					"title": "iboss"
+				},
+				{
+					"url": "https://www.proofpoint.com/uk/solutions/protect-cloud-apps",
+					"title": "Proofpoint"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Radware/Radware_Cloud_DDoS_Protection_Service_Datasheet-2020-Final.pdf",
+					"title": "Radware"
+				},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/TrendMicro/Cloud Security Simplified.pdf",
+					"title": "Trend Micro"
+				}
+			],
+			"description": "Cloud Security provides cloud-native security for applications, workloads and infrastructure for public, private and multi-cloud environments."
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#76D842",
+			"sliced": false,
+			"name": "Virtual<br>Patching",
+			"vendors": ["Bitdefender", "Trend Micro", "Vicarius"],
+			"threats": ["Zero Day Attacks", "Ransomware", "IoT exploit"],
+			"resources": [
+				{
+				"url": "https://www.bitdefender.co.uk/business/gravityzone-addons/patch-management.html",
+				"title": "Bitdefender"
+				},
+				{
+					"url": "https://www.trendmicro.com/vinfo/us/security/news/security-technology/security-101-virtual-patching#:~:text=Virtual%20patching%20%E2%80%94%20or%20vulnerability%20shielding,to%20and%20from%20a%20vulnerability.",
+					"title": "Trend Micro"
+				},
+				{
+					"url": "https://www.vicarius.io/product/patch-management",
+					"title": "Vicarius"
+				}
+			],
+			"description": "Virtual Patching applies short protection to an existing exploit, where a patch may not be available or able to be deployed."
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#76D842",
+			"sliced": false,
+			"name": "Patch<br>Management",
+			"vendors": ["Bitdefender", "Vicarius"],
+			"threats": ["Zero Day Attacks", "Ransomware"],
+			"resources": [
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Bitdefender/Bitdefender-2017-Datasheet-GravityZone-EliteSecurity.pdf",
+				"title": "Bitdefender"
+				},
+				{
+					"url": "https://www.vicarius.io/product/patch-management",
+					"title": "Vicarius"
+				}
+			],
+			"description": "Patch Management helps automate the application of patches for the operating systems and applications across the network, cloud and endpoints."
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#76D842",
+			"sliced": false,
+			"name": "Multi-Factor Authentication",
+			"vendors": ["Censornet", "Swivel Secure"],
+			"threats": ["Insider Threat", "Social Engineering / BEC"],
+			"resources": [
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/SwivelSecure/adaptive_authentication.pdf",
+					"title": "Swivel Secure"
+				},
+				{
+					"url": "https://www.censornet.com/insights-events/resource/cloud-multi-factor-authentication-mfa-datasheet/",
+					"title": "Censornet"
+				}
+			],
+			"description": "Multi Factor Authentication helps validate identity for access to an application or data via something you know, have or are. "
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#76D842",
+			"sliced": false,
+			"name": "Applications Security",
+			"vendors": ["Bitdefender", "Checkpoint", "Trend Micro"],
+			"threats": [""],
+			"resources": [
+				{
+				"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/Bitdefender/Bitdefender-2015-NGZ-EndPointSecurity-DS-68189-A4-en_EN-web.pdf",
+				"title": "Bitdefender"
+				},
+				{
+					"url": "https://www.checkpoint.com/quantum/application-control/",
+					"title": "Checkpoint"
+					},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/TrendMicro/ds-cloud-one-application-security.pdf",
+					"title": "Trend Micro"
+				}
+			],
+			"description": "Application Control provides managed access and rights for users to run applications on their network or corporate devices."
+		},
+		{
+			"y": 10,
+			"margin": 0,
+			"textcolor": "#fff",
+			"color": "#76D842",
+			"sliced": false,
+			"name": "Vulnerability Remediation",
+			"vendors": ["Bitdefender", "Fortra", "Trend Micro", "Vicarius"],
+			"threats": ["Zero Day Attacks", "IoT exploit"],
+			"resources": [
+				{
+				"url": "https://www.bitdefender.com/business/smb-products/business-security.html?_ga=2.161025273.536444820.1637851853-1566593154.1620390537",
+				"title": "Bitdefender"
+				},
+				{
+					"url": "https://www.helpsystems.com/solutions/cybersecurity/infrastructure-protection/vulnerability-management",
+					"title": "Fortra"
+					},
+				{
+					"url": "https://media.e92plus.com/e92plus/Files/cybersecurity-maturity-wheel/TrendMicro/ds_vulnerability-protection.pdf",
+					"title": "Trend Micro"
+				},
+				{
+					"url": "https://www.vicarius.io/blog/security-vulnerability-remediation",
+					"title": "Vicarius"
+				}
+			],
+			"description": "Vulnerability remediation helsp an organisation efficiently find and fix potential threats across it's network."
+		}
+	]
+}
